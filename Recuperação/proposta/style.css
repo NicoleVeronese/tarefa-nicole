@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #ffffff;
+}
+header{
+    position: fixed;
+    background: #482680;
+    padding: 25px;
+    width: 100%;
+    height: 30px;
+}
+.team-icon{
+    background: #fff;
+    border-radius: .4rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    margin: 50px 550px 0px;
+}
+.nav .search-icon {
+    color: #2b2830;
+    font-size: 18px;
+}
+.icones:hover{
+    color:#4b00ad;
+}
+.nav .search-box {
+    position: absolute;
+    right: 500px;
+    height: 30px;
+    max-width: 555px;
+    margin-top: -15px;
+    width: 100%;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.2s linear;
+}
+.search-box .search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    left: 15px;
+    color: #9b4af7;
+    transform: translateY(-50%);
+}
+.search-box input {
+    height: 95%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 0 15px 0 45px;
+}
+.left_btn{
+    float: left;
+    margin-top: -15px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.5s;
+    transition-property: background;
+}
+.rigth_btn{
+    float: left;
+    margin-top: -15px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.5s;
+    transition-property: background;
+}
+.mais_btn{
+    float: left;
+    margin-top: -15px;
+    margin-left: 78%;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.5s;
+    transition-property: background;
+}
+.image3{
+    float: left;
+    margin-top: -15px;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 25px;
+    margin-top: -18px;
+    border-radius: 100%;
+}
+.sair_btn{
+    float: right;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: -15px;
+    margin-right: -15px;
+    transition: 0.5s;
+    transition-property: background;
+}
+.abas_btn{
+    float: right;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: -15px;
+    transition: 0.5s;
+    transition-property: background;
+}
+.min_btn{
+    float: right;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: -15px;
+    transition: 0.5s;
+    transition-property: background;
+}
+.min_btn:hover{
+    background: #6e6088;
+}
+.abas_btn:hover{
+    background: #6e6088;
+}
+.sair_btn:hover{
+    background: #c42c2c;
+}
+.sidebar{
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    font-size: 9px;
+    text-align: center;
+    margin-top: 50px;
+    left: 0;
+    background: rgb(225, 221, 233);
+}
+.sidebar .image3{
+    width: 50px;
+    height: 50px;
+}
+.siderbar a{
+    color: rgb(140, 136, 143);
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+.sidebar2{
+    color: rgb(62, 45, 77);
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding-left: 60px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+a { 
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+} 
+.siderbar a:hover{
+    color: #482680;
+}
+.sidebar ion-icon{
+    font-size: 25px;
+    padding-right: 50px;
+    padding: 10px;
+    transition: 0.5s;
+    transition-property: background;
+}
+.alltimes{
+    font-size: 10px;
+    color: rgb(39, 35, 35);
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.alltimes span{
+    color: rgb(39, 35, 35);
+    font-size: 11px;
+}
+.left2_btn{
+    float: left;
+    color: #000;
+    font-size: 11px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.image1{
+    float: left;
+    margin-left: -70px;
+    margin-top: 10px;
+}
+.mochila{
+    float: left;
+    size: 5px;
+    margin-left: -255px;
+    margin-top: 20px;
+}
+.barralateral{
+    float: left;
+    font-size: 15px;
+    margin-left: -120px;
+    margin-top: 120px;
+}
+.barralateral .nav-text:hover{
+    background: #b2a0b8;
+}
+.barralateral .nav-text{
+    transition: 0.5s;
+    transition-property: background;
+}
+.text2{
+    float: left;
+    font-weight: bold;
+    margin-left: -70px;
+    margin-top: 95px;
+}
+.barrahorizontal{
+    float: left;
+    margin-left: 80px;
+    margin-top: 95px;
+}
+.assignments{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -530px;
+    margin-top: 80px;
+}
+.iconre{
+    float: right;
+    color: #2b2830;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-right: 10px;
+}
+.tresp{
+    font-size: 10px;
+    margin-left: -100px;
+    margin-top: -140%;
+}
+.fleft{
+    float: left;
+    margin-top: -30px;
+    margin-right: -150px;
+    display: flex;
+    transition: 0.5s;
+    transition-property: background;
+}
+.fleft span:hover{
+    color: #4800bb;
+}
+.assigned{
+    margin-right: 15px;
+}
+.returned{
+    margin-right: 15px;
+}
+.drafts{
+    margin-right: 15px;
+}
+.frigth{
+    float: right;
+    color: #2b2830;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-right: -1000px;
+    display: flex;
+}
+.content{
+    background: url(image/img-2.png) no-repeat;
+    background-size: 100%;
+    margin-left: 18%;
+    background-color: cover;
+    background-position: right;
+    height: 105vh;
+    width: 85vw;
+}
+.confg_btn{
+    margin-top: 8%;
+}
+.btns{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: -300px;
+    margin-left: 320px;
+}
+.btn{
+    float: left;
+    margin-top: 200px;
+    margin-right: -300px;
+    font-size: 10px;
+    font-weight: bold;
+    background: #5c3e8d;
+    width: 90px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5s);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
